@@ -1,3 +1,4 @@
+import re
 # Breakpoint: 1
 
 # Ex 1
@@ -53,3 +54,27 @@ else:
 # Breakpoint: 2
 
 # Ex 6
+string = str(input("Entrez une chaîne de caractères: "))
+if re.search("@.*com$", string) :
+    print("L'adresse mail est valide")
+else:
+    print("L'adresse mail est invalide")
+
+# Ex 7
+for i in range(0, 10):
+  print("hello")
+
+# Ex 8
+mot = "salut"
+for i in range(0, len(mot)):
+    print(mot[i])
+
+# # Ex 9
+a = 0
+b = 10
+
+while a < b:
+    print(a)
+    a = a + 1
+
+  
